@@ -122,21 +122,15 @@ $maxWidth: 1180;
         white-space: nowrap;
 
         &_xl {
-            font-weight: 700;
-            @include adaptive-font(24, 18);
             color: #0499DD;
         }
 
         &_sm {
-            font-weight: 500;
-            font-size: 12px;
             color: white;
         }
 
         &_lg {
             color: #FFC700;
-            font-weight: 700;
-            font-size: 14px;
             margin-top: 5px;
         }
     }
@@ -288,5 +282,25 @@ $maxWidth: 1180;
                 margin-top: 20px;
             }
         }
+    }
+}
+
+.title {
+    white-space: nowrap;
+
+    &_xl {
+        font-weight: 700;
+        @include adaptive-font(24, 18);
+    }
+
+    &_sm {
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    &_lg {
+        font-weight: 700;
+        font-size: 14px;
+        margin-top: 5px;
     }
 }
